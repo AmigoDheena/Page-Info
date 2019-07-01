@@ -1,6 +1,8 @@
 # Page-Info
 It'll show the information about the webpage for optimization purpose.
 
+Just add this into the URL section of a new bookmark:
+
 ```javascript
 javascript:(function(){var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/amigodheena/Page-Info@master/pageinfo.js';document.body.appendChild(script);})()
 ```
