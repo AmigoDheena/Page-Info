@@ -104,15 +104,13 @@
   let protocoll = document.location.protocol;
 
   let firstPaint = window.chrome.loadTimes().firstPaintTime - window.chrome.loadTimes().startLoadTime;
-  console.log(firstPaint);
-
+  
   function webinfo() {
       this.Href = hreff;
       this.Host = hostt;
       this.HostName = hostnamee;
       this.Port = portt;
       this.Protocol = protocoll;
-      this.FirstPaint = firstPaint;
       this.JS = arrscript.length;
       this.CSS = stylesrc.length;
       this.Image = imgsrc.length;
