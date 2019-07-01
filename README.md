@@ -6,3 +6,5 @@ javascript:(function(){var script=document.createElement('script');script.src='h
 ```
 
 Or alternatifly just copy and paste the content of [Page-Info.js](https://cdn.jsdelivr.net/gh/amigodheena/Page-Info@master/pageinfo.js) to your browser console.
+
+![Page Info Screenshot](screenshot/Screenshot%202019-07-01%20at%202.40.27%20PM.png)
