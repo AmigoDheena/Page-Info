@@ -69,9 +69,12 @@
   // script
   var scriptsrc = document.querySelectorAll('script');
   var arrscript = [];
+  var arrscriptinline = [];
   for(var i=0; i<scriptsrc.length; i++){
     if(scriptsrc[i].src != ''){
         arrscript.push(scriptsrc[i].src);
+    }else{
+      arrscriptinline.push(scriptsrc[i]);
     }
   }
   console.table(arrscript);
@@ -112,6 +115,7 @@
       this.Port = portt;
       this.Protocol = protocoll;
       this.JS = arrscript.length;
+      this.InlineJS = arrscriptinline.length;
       this.CSS = stylesrc.length;
       this.Image = imgsrc.length;
   }
